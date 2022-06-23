@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body, #area-modal{
+    height: 100%;
+}
+
+#area-modal{
+    background: #1488DB;
+}
+
+
+/* modal 1 */
+#modal1{
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+    height: 40%;
+    text-align: center;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: abrirModal;
+    animation-duration: 800ms;
+    box-shadow: 1px 1px 10px rgb(30, 30, 30);
+    background: rgb(216, 216, 216);
+}
+
+
+
+/* modal 2 */
+#modal2{
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: abrirModal;
+    animation-duration: 800ms;
+    box-shadow: 1px 1px 10px rgb(195, 6, 6);
+    background: #ffcdcd;
+    color: rgb(238, 44, 44);
+}
+
+#modal2 p{
+    font-size: 22px;
+}
+
+
+
+
+/* modal 3 */
+#modal3 {
+    border-radius: 10px;
+    padding: 30px;
+    width: 70%;
+    height: 70%;
+    text-align: center;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: abrirModal;
+    animation-duration: 800ms;
+    box-shadow: 1px 1px 10px rgb(25, 98, 25);
+    background: rgb(218, 255, 218);
+    color: rgb(24, 156, 24);
+}
+
+#modal3 p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+
+
+
+@keyframes abrirModal{
+    from {
+        opacity: 1;
+    }
+
+    from {
+        opacity: 0;
+    }
+}
