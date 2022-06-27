@@ -20,7 +20,6 @@ html, body, #area-modal{
     width: 30%;
     height: 40%;
     text-align: center;
-    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -40,7 +39,6 @@ html, body, #area-modal{
     width: 50%;
     height: 50%;
     text-align: center;
-    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -66,7 +64,6 @@ html, body, #area-modal{
     width: 70%;
     height: 70%;
     text-align: center;
-    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -94,4 +91,9 @@ html, body, #area-modal{
     from {
         opacity: 0;
     }
+}
+
+
+.modal{
+    display: none;
 }
